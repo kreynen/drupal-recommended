@@ -12,6 +12,9 @@ All notable changes specific to pantheon-upstreams/drupal-recommended are noted 
 - Move most dependencies out of `upstream-configuration` to give more control to individual sites.
 - Install contrib modules to `web/modules/contrib` rather than `web/modules/composer`.
 
+All notable changes specific to pantheon-upstreams/drupal-project are noted here.
+
+
 
 ## Pantheon Update #1 - 2021-02-03
 
