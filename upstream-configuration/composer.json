@@ -8,9 +8,9 @@
         }
     ],
     "require": {
-        "drupal/webform": "^6.1",
-        "drush/drush": "^10.6",
         "drupal/bootstrap_barrio": "^5.5",
+        "drupal/csv_serialization": "^2.0",
+        "drupal/content_moderation_notifications": "^3.3",
         "drupal/devel": "^4.1",
         "drupal/diff": "^1.0",
         "drupal/environment_indicator": "^4.0",
@@ -19,11 +19,25 @@
         "drupal/google_tag": "^1.4",
         "drupal/honeypot": "^2.0",
         "drupal/layout_paragraphs": "^1.0",
+        "drupal/login_history": "^1.1",
+        "drupal/metatag": "^1.16",
+        "drupal/moderation_sidebar": "^1.4",
+        "drupal/pathauto": "^1.8",
+        "drupal/pantheon_advanced_page_cache": "^1.2",
+        "drupal/role_delegation": "^1.1",
+        "drupal/role_expire": "^2.0",
+        "drupal/scheduled_transitions": "^2.1",
+        "drupal/sendgrid_integration": "^1.7",
+        "drupal/shortcode": "^2.0",
+        "drupal/simple_styleguide": "^1.8",
+        "drupal/simplesamlphp_auth": "^3.2",
         "drupal/twig_tweak": "^3.1",
         "drupal/twig_vardumper": "^3.0",
         "drupal/views_data_export": "^1.0",
-        "drupal/xmlsitemap": "^1.2",
-        "simplesamlphp/simplesamlphp": "^1.19"
+        "drupal/webform": "^6.1",
+        "drupal/xmlsitemap": "^1.2",  
+        "simplesamlphp/simplesamlphp": "^1.19",
+        "drush/drush": "^10.6"
     },
     "extra": {
         "_README": "To make a custom upstream, clone this repository and add any dependencies to be provided by this upstream to this composer.json file. Leave the root-level composer.json file for the exclusive use of each individual site; do not modify it after your custom upstream has been published. See https://pantheon.io/docs/create-custom-upstream for more information."
