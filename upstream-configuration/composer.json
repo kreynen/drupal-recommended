@@ -75,5 +75,16 @@
             "rm -rf vendor/simplesamlphp/simplesamlphp/metadata && ln -sf ../../../private/simplesamlphp/metadata vendor/simplesamlphp/simplesamlphp/metadata",
             "rm -rf vendor/simplesamlphp/simplesamlphp/cert && ln -sf ../../../private/simplesamlphp/cert vendor/simplesamlphp/simplesamlphp/cert"
         ]
+    },
+    "patches": {
+        "drupal/core": {
+            "Taxonomy Index for unpublished entities": "https://www.drupal.org/files/issues/2021-02-03/962664-drupal-add-unpublished-nodes-to-taxonomy-index-168.patch"
+        },
+        "drupal/structure_sync": {
+            "D9 - getVocabularyId (undefined method)": "https://www.drupal.org/files/issues/2020-11-05/3180878-undefined-method-getVocabularyId-1.patch"
+        },
+        "drupal/config_views": {
+            "_views_views_config_process_schema() fix": "https://www.drupal.org/files/issues/2020-07-23/config_views-2859245-15-fix-fatal-error-and-undefined-offset.patch"
+        }
     }
 }
